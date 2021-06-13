@@ -10,7 +10,7 @@ class MethodNotImplementedError(NotImplementedError):
 class DownloadHelper:
     def __init__(self):
         self.name = ''  # Name of the download; empty string if no download has been started
-        self.size = 0.0  # Size of the download
+        self.size = 750.0  # Size of the download
         self.downloaded_bytes = 0.0  # Bytes downloaded
         self.speed = 0.0  # Download speed in bytes per second
         self.progress = 0.0
